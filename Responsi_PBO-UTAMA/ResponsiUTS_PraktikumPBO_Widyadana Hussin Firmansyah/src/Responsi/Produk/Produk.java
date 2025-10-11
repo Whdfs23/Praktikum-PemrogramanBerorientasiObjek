@@ -10,7 +10,7 @@ package Responsi.Produk;
  */
 public class Produk {
     private String namaProduk;
-    private long harga; // Menggunakan long agar tidak ada koma saat dicetak
+    private long harga; 
 
     public Produk(String namaProduk, long harga) {
         this.namaProduk = namaProduk;
@@ -34,9 +34,9 @@ public class Produk {
         this.harga = harga;
     }
 
-    // Metode ini akan mencetak informasi dasar produk.
+
     public void tampilkanInfo() {
         System.out.println("Nama Produk: " + this.namaProduk);
-        System.out.println("Harga: " + this.harga); // Dicetak sebagai angka biasa
+        System.out.println("Harga: " + this.harga); 
     }
 }
