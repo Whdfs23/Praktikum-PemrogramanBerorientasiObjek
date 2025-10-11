@@ -14,27 +14,23 @@ import Responsi.Produk.Makanan;
 public class Main {
     public static void main(String[] args) {
 
-        // Bagian 1: Output Produk
         System.out.println("1. Output Produk");
-        Elektronik produk1 = new Elektronik("Laptop", 15000000L, 2); // 'L' menandakan tipe data long
+        Elektronik produk1 = new Elektronik("Laptop", 15000000L, 2); // 'L' karena saya menggunakan tipe data 'long'.
         produk1.tampilkanInfo();
 
-        System.out.println(); // Baris kosong sebagai pemisah
+        System.out.println(); 
 
-        // Bagian 2: Output Pegawai
         System.out.println("2. Output Pegawai");
-        // Ganti "Budi" dengan nama Anda
-        PegawaiTetap pegawai1 = new PegawaiTetap("Budi", 5000000L, 1000000L);
+        PegawaiTetap pegawai1 = new PegawaiTetap("Widyadana Hussin Firmansyah", 5000000L, 1000000L);
         pegawai1.tampilkanInfo();
 
-        System.out.println(); // Baris kosong sebagai pemisah
-
-        // Bagian 3: Output Polimorfisme
+        System.out.println();
+        
         System.out.println("3. Output Polimorfisme");
         Makanan produk2 = new Makanan("Snack", 15000L, "2023-12-30");
         produk2.tampilkanInfo();
         
-        System.out.println(); // Baris kosong untuk memisahkan output Snack dan Andi
+        System.out.println();
         
         PegawaiKontrak pegawai2 = new PegawaiKontrak("Andi", 3000000L, 12);
         pegawai2.tampilkanInfo();
