@@ -10,14 +10,13 @@ package Responsi.Pegawai;
  */
 public class Pegawai {
        private String namaPegawai;
-    private long gaji; // Menggunakan long
+    private long gaji; 
 
     public Pegawai(String namaPegawai, long gaji) {
         this.namaPegawai = namaPegawai;
         this.gaji = gaji;
     }
 
-    // Getter dan Setter
     public String getNamaPegawai() {
         return namaPegawai;
     }
@@ -34,7 +33,6 @@ public class Pegawai {
         this.gaji = gaji;
     }
 
-    // Metode ini diubah untuk mencetak "Gaji" bukan "Gaji Pokok".
     public void tampilkanInfo() {
         System.out.println("Nama Pegawai: " + this.namaPegawai);
         System.out.println("Gaji: " + this.gaji);
