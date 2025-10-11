@@ -19,8 +19,7 @@ public class PegawaiTetap extends Pegawai {
 
     @Override
     public void tampilkanInfo() {
-        super.tampilkanInfo(); // Menampilkan Nama dan Gaji
-        // Tidak ada lagi baris "Total Gaji" untuk mencocokkan output
+        super.tampilkanInfo(); 
         System.out.println("Tunjangan: " + this.tunjangan);
     }
 }
