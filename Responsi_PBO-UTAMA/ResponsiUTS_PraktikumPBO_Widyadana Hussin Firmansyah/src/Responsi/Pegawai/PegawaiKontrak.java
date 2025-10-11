@@ -9,7 +9,7 @@ package Responsi.Pegawai;
  * @author LENOVO
  */
 public class PegawaiKontrak extends Pegawai {
-    private int lamaKontrak; // dalam bulan
+    private int lamaKontrak;
 
     public PegawaiKontrak(String namaPegawai, long gaji, int lamaKontrak) {
         super(namaPegawai, gaji);
@@ -18,7 +18,7 @@ public class PegawaiKontrak extends Pegawai {
 
     @Override
     public void tampilkanInfo() {
-        super.tampilkanInfo(); // Menampilkan Nama dan Gaji
+        super.tampilkanInfo(); 
         System.out.println("Lama Kontrak: " + this.lamaKontrak + " bulan");
     }
 }
