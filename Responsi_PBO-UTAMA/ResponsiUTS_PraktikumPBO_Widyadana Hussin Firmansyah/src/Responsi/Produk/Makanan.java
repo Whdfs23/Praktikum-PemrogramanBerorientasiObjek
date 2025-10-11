@@ -12,13 +12,13 @@ public class Makanan extends Produk {
     private String tanggalKadaluarsa;
 
     public Makanan(String namaProduk, long harga, String tanggalKadaluarsa) {
-        super(namaProduk, harga); // Memanggil constructor Produk dengan tipe data long
+        super(namaProduk, harga); 
         this.tanggalKadaluarsa = tanggalKadaluarsa;
     }
 
     @Override
     public void tampilkanInfo() {
-        super.tampilkanInfo(); // Menampilkan Nama dan Harga
+        super.tampilkanInfo(); 
         System.out.println("Tanggal Kadaluarsa: " + this.tanggalKadaluarsa);
     } 
 }
